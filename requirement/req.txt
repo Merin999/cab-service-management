@@ -1,0 +1,122 @@
+
+Cab Service Management
+Requirements
+. User registeration 
+	The users are drivers and customers. Using an email id or phone number they can register.
+	. Type of User
+		Driver
+		customer
+	 If driver
+		Name
+		Gender
+		Age
+		email id
+		mobile number
+		driving license
+		password
+		confirm password
+	If customer
+		Name	
+		email id
+		mobile number
+		password
+		onfirm password
+. otp verification for authentication 
+	After the registeration, users must be verified using otp send to the given mail id or mobile number.
+. Login for drivers and customers
+	There should be different login for different users.
+	email id
+	password
+. Forgot password
+	There should be an option for reset the password, and the option for resetting password should sent via email or mobile number given.
+email id
+. User guide 
+	User guide should include how to use the application
+. Different user accounts for different customers
+	There should be different type of accounts for customers and drivers.
+
+For customers
+Home page 
+	When a customers logins to the application, home page of the customer is loaded.
+	It includes,
+.Customer profile
+		It contains the basic details of the customer like name, age, gender, email id.
+. Google map service 
+	Google map service can be used to know on which route have the cab facility.
+. Booking
+	In the booking option the available route should given, customer can select any of it. After that the available time should given and customer can able to book the cab if it is available in the given time. In case of auto and car, sharing option is available, so that the cost also can be shared.
+	Type of cab
+		autorikshaw
+			number of people
+			share
+		car
+			AC
+			Non AC
+			number of people
+			share
+		Traveller
+			AC
+			Non AC
+			number of people
+	Date
+	Number of days
+	Time
+	Place
+		From
+		To
+. Live map service 
+	Live traking can help the customers to track their route easily. ie, in which route the cab is currently moving
+. Cancel Booking
+	Once a customers book the cab, they might not able to use is. So there should be a cancel booking option. And it should only enabled after the booking of a ride.
+	Cancel booking
+		Reason
+. Payment
+	There should be online payment and cash in hand payment option.
+		Online payment
+			Credit card
+			Debit card
+		Cash in hand
+. Rating 
+	The customers can rate the ride based on their experience.
+	Rate the ride
+. Feedback
+	Customers can give feedback about each ride and the corresponding drivers should able to see it and give reply to it.
+	Feedback
+. Notification
+	There should be an option for notification that helps the customers get notified about the ride .	
+. View booking 
+	This should contains the previous booking history of the customer
+	Ride details
+.SOS
+	There should be a safty button. In case any accident or something happens a message will automativcaly send to higher authority like police.
+. Search
+	There shouls be search button for search cab using names, type of vehicle or type of driver.
+For drivers
+Home page
+	When a drivers logins to the application, home page of the driver is loaded.
+	It includes,
+. View Bookings
+	The drivers sholud able to see who all booked their services. It should include the place,date, time, number of days, paid or not.
+	Booking information
+. Add cab
+	Drivers should able to add their cab details so that customers can use it's service. And there should be different types of vehicle like autorikshaw, car, traveller, etc.In case of autorikshaw and car pooling option is availabe. when anyone is intrested in sharing the cab it will shown available and when each customer book the number of availabe seat will decrease.  And it must include saftey precuations customers should taken before the ride.
+	Type of the vehicle
+		model
+		Colour
+		Images
+	Saftey precuations to be taken
+. Add ride
+	Drivers should able to add ride by giving the time of take of and giving the route stops and the estimated rate at each stop. Driver should able to give the limit of people that they can accomodate in the cab.
+	Type of cab
+	from place
+	to place
+	Date
+	Time
+	Maximum number of people
+	Estimated rate 
+. View feedback and rating
+	Driver should able to see the rating and feedback that customers given to them and they should able to reply and like the feedback.
+. Driving history
+	It should contain the previous driving history of the driver.
+ 
+	

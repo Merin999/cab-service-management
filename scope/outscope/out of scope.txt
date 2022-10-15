@@ -1,0 +1,6 @@
+CAB SERVICE MANAGEMENT
+Out of scope
+1. Cab renting
+2. Discount
+3. drive by the user
+4. SOS

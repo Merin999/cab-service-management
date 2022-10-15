@@ -1,0 +1,27 @@
+CAB SERVICE MANAGEMENT 
+Inscope 
+1. Registeration
+2. OTP verification for authentication 
+3. Login for drivers and customers
+4. Forgot password
+5. User guide 
+6. Different user accounts for different customers
+For customers
+7. Google map service 
+8. Booking
+9. Live map service 
+10. Cancel Booking
+11. Payment
+12. Rating
+13. Feedback
+14. Notification
+15. View booking 
+16. SOS
+For drivers
+17. View Bookings
+18. Add cab
+19. Add ride
+20. View feedback and rating
+21. Driving history
+
+
