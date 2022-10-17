@@ -1,0 +1,244 @@
+Cab Service Management
+
+Requirements
+
+>>Icon
+	When the site is loading, the icon should displayed in the splash screen.
+
+>>Home page
+	Home page should contain sign up, login, about us.
+
+	>>Sign up 
+		The users are drivers and customers. Using an email id or phone number they can sign up.
+		This page should includes the fields,
+		>>Type of User
+			Driver
+			customer
+
+	 	If Driver,
+			Name
+			Gender
+			Age
+			Email id
+			Mobile number
+			Driving license number
+			Driving license card image
+			Password
+			Confirm password
+
+		If Customer,
+			Name	
+			Email id
+			Mobile number
+			Password
+			Confirm password
+
+>>OTP verification for authentication 
+	After sign up, users must be verified using otp, that is send to the given mobile number.
+
+>>About us
+	
+>>User guide 
+	User guide should include how to use the application. When the user launches the application for the first time,
+	he should come across the well-defined user guide. It should cover all and every aspect of the application making
+	it easy for the user to perform the task. 
+
+>>Login for drivers and customers
+	There should be different login for different users.
+	Type of user should given as different option.
+
+	If Driver,
+		Email id/mobile number
+		password
+
+	If Customer,
+		Email id/mobile number
+		password
+
+	>>Forgot password
+		There should be an option for reset the password in case the user forgot their password,
+	 	and the option for resetting password should sent via email or mobile number given.
+
+>>Different UI for different users
+	There should be different type of accounts for customers and drivers.
+
+	For customers,
+		Dash board 
+		When a customers logins to the application, dash board of the customer is loaded.
+		It should includes,
+		>>Customer profile
+			It contains the basic details of the customer like name, age, gender, email id that are given at the time of sihn up.
+			It should include,
+			>>Edit profile
+				In case the user wants to edit their details.
+
+		>>Book the ride
+			In the booking option it should contain from and to place. And when customer types the place, suggesion should given
+			 After that the customer should able to give the leaving time. Then customer should able to select the type of cab they
+			 are looking for and customer should able to book the cab if it is available in the given time. 
+			 After giving these details, the estimated arrival time and estimated fare shoud displayed. 
+			 In case of auto and car, sharing option is available, so that the cost also can be shared.
+			.From place
+			.To place
+			.Date
+			.Number of days
+			.Time
+			.Type of cab
+
+				..Autorikshaw
+
+					.Number of people
+						Should not exceed the maximum number. If it exceeds, give warning.
+
+					.Share the ride
+					>>Share the ride
+					In the case of auto rikshaw and car, sharing option is available. Other people who are selecting the same
+				 	route should able to discover this sharing, and they can able to book. For each cab there should be a 
+				 	maximum number of people that can accomodate. So, when each people books the cab, available seats should 
+				 	decresed.
+
+					.Book the ride
+
+					.Confirm booking
+						After booking the cab, an otp as confirmation should send via mobile number.
+			
+				..Car
+					.Number of people
+						Should not exceed the maximum number. If it exceeds, give warning.
+
+					.Type of Car
+						.AC
+						.Non AC
+
+					.Share the ride
+					>>Share the ride
+					In the case of auto rikshaw and car, sharing option is available. Other people who are selecting the same
+				 	route should able to discover this sharing, and they can able to book. For each cab there should be a 
+					maximum number of people that can accomodate. So, when each people books the cab, available seats should 
+					decresed.
+
+					.Book the ride
+
+					.Confirm booking
+					After booking the cab, an otp as confirmation should send via mobile number.
+			
+				..Traveler
+					.Number of people
+						Should not exceed the maximum number. If it exceeds, give warning.
+					.Type of Car
+						.AC
+						.Non AC
+
+					.Share the ride
+					>>Share the ride
+						In the case of auto rikshaw and car, sharing option is available. Other people who are selecting the same
+						 route should able to discover this sharing, and they can able to book. For each cab there should be a 
+						 maximum number of people that can accomodate. So, when each people books the cab, available seats should 
+						 decresed.
+					.Book the ride
+					.Confirm booking
+						After booking the cab, an otp as confirmation should send via mobile number.
+		
+		>>Google map service 
+			Google map service can be used to show the route after the customer enteres the from and to place.
+
+		>>Live map service 
+			Live traking can help the customers to track their route easily. ie, in which route the cab is currently moving.
+
+		>>Cancel Booking
+			Once a customers book the cab, they might not able to use is. So there should be a cancel booking option. 
+			And it should only enabled after the booking of a ride.
+			This should includes,
+			Cancel booking
+			Reason(Optional)
+
+		>>Payment
+			There should be online payment and cash in hand payment option.
+			Online payment
+				Card number
+				Expiry date
+				Card holder name
+				CVV
+				Save card option
+				Payment
+				Confirm payment
+				Confirmation message to mobile number
+			Cash in hand
+
+		>>Rating 
+			The customers can rate the ride based on their experience.
+			It should include,
+			Rate the ride(in the form of stars)
+
+		>>Feedback
+			Customers can give feedback about each ride and the corresponding drivers should able to see it and give reply to it.
+			It should includes the field,
+			Feedback
+
+		>>Notification
+			There should be an option for notification that helps the customers get notified about the ride.
+	
+		>>View booking 
+			This should contains the previous booking history of the customer such as place, date, time, fare, time taken,
+			 details of driver and cab.
+			
+		>>SOS
+			There should be a safty button. In case any accident or something happens a message will automativcaly 
+			 send to higher authority like police.
+
+		>>Search for place
+			There should be search button for search place, it should include auto suggestion option.
+
+		>>Search for cab/driver
+			There should be search button for search cab or driver. It should include auto suggestion option.
+		
+		>>FAQ
+			Customers should able to see Frequently Asked Question
+
+		>>Chat
+			Customers should able to chat with driver, and driver can able to see this.
+
+	For drivers,
+		Dash board
+		When a drivers logins to the application, dash board of the driver should loaded.
+
+		It should includes,
+		
+		>>Add cab
+			Drivers should able to add their cab details so that customers can use it's service. 
+			And there should be different types of vehicle like autorikshaw, car, traveller, etc.
+			In case of autorikshaw and car pooling option is availabe. when anyone is intrested in sharing the 
+			cab it will shown available and when each customer book the number of availabe seat will decrease.
+		  	And it must include saftey precuations customers should taken before the ride.
+			Type of the vehicle
+				model
+				Colour
+				Images
+				Saftey precuations to be taken
+		>>Add ride
+			Drivers should able to add ride by giving the time of take of and giving the route stops and the estimated
+			 rate at each stop. Driver should able to give the limit of people that they can accomodate in the cab.
+			Type of cab
+			from place
+			to place
+			Date
+			Time
+			Maximum number of people
+			Estimated rate 
+
+		>>View Bookings
+			The drivers sholud able to see who all booked their services. 
+			It should include the place,date, time, number of days, paid or not.
+			Booking information
+
+		>>View feedback and rating
+			Driver should able to see the rating and feedback that customers given to them and they should able to 
+			reply and like the feedback.
+
+		>>Driving history
+			It should contain the previous driving history of the driver.
+
+		>>Chat
+			Driver should able to chat with customers.
+ 
+	

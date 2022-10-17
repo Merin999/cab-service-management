@@ -1,6 +1,6 @@
 CAB SERVICE MANAGEMENT 
 Inscope 
-1. Registeration
+1. Registration
 2. OTP verification for authentication 
 3. Login for drivers and customers
 4. Forgot password
