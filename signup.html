@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Service Management</title>
+</head>
+<body>
+    <h1>Sign up here..</h1>
+    <form action="#" method="post">
+        <table class="tab1" cellspacing="6" cellpadding="2">
+            
+            <tr>
+                <td class="tab2"><label for="name">Name</label></td>
+                <td> <input type="text" id="name" placeholder="Type your name.." style="border-color:blue"></td>
+            </tr>
+            
+            <tr>
+                <td class="tab2"><label for="address">Address</label></td>
+                <td><textarea placeholder="type your address" id="address" name="address" rows="6" cols="20" style="border-color:blue"> </textarea></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="dob"> Date of Birth</label></td>
+                <td><input type="date" id="dob" placeholder="dd-mm-yyyy" style="border-color:blue"></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="gender">Gender</label></td>
+                <td><input type="radio" id="male" value="1" name="gender"/>Male
+                <input type="radio" id="female" value="2" name="gender" style="border-color:blue"/>Female
+                <input type="radio" id="others" value="3" name="gender" style="border-color:blue"/>Others</td>    
+            </tr>
+
+            <tr>
+                <td class="tab2"><label for="mobile">Mobile</label></td>
+                <td> <input type="number" id="mobile" placeholder="Enter your number" style="border-color:blue"></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="email">Email</label></td>
+                <td> <input type="email" id="email" placeholder="Enter your email" style="border-color:blue"></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="uname">Username</label></td>
+                <td> <input type="uname" id="uname" placeholder="Enter a Username" style="border-color:blue"></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="pword">Password</label></td>
+                <td> <input type="password" id="pw" placeholder="Enter a password" style="border-color:blue"></td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="photo">Upload your photo</label></td>
+                <td><input type="file" id="photo" name="photo" accept="image/*,*.pdf "> </td>
+            </tr>
+            <tr>
+                <td class="tab2"><label for="aadhaar">Upload your aadhaar</label></td>
+                <td><input type="file" id="aadhaar" name="aadhaar" accept="image/*,*.pdf "> </td>
+            </tr>
+   
+
+        </table>
+    
+        <table>
+            <tr>
+                <td> <input type="submit" onclick="javascipt:saveData();" id="submit" style="border-color:blue"></td>
+                <td> <input type="reset" id="reset" name="reset" value="Reset" style="border-color:blue"/></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
